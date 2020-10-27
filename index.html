@@ -11,7 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -28,6 +28,24 @@
      <div id="camera"></div>
      <button type="button" id="capture_image" class="btn btn-info" onclick="takesnapshot()">Capture Image</button>
    </div>
+
+   <div class="col-sm-6 col-xs-12 main_div">
+     <h2>Snapshot</h2>
+     <div id="result"></div>
+     <button type="button" id="identify_image" class="btn btn-success" onclick="check()">Identify Image</button>
+   </div>
+
+    <div class="col-xs-12 footer_div">
+      <h4 class="col-sm-6 col-xs-12">
+        <img src="blub.gif">
+        <span id="object_name"></span>
+      </h4>
+    </div>
+
+    <div class="copy_right_footer">
+      Developed By-Brijkishor
+    </div>
+
     </center>
 
 

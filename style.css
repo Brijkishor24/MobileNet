@@ -24,14 +24,39 @@ body{
     padding: 10px;
     box-shadow:5px 10px 15px limegreen;
 }
-#camera{
-    width: 300px;
+#camera,#result{
+    width: 320px;
     height: 300px;
     border: ridge;
 }
-#capture_image{
+#capture_image,#identify_image{
     font-size: 20px;
-    width: 140px;
+    width: 175px;
     margin-top: 20px;
     box-shadow:2px 10px 15px slateblue;
+}
+.footer_div img{
+    width:70px;
+    float: left;
+}
+.footer_div{
+    margin-bottom:50px;
+}
+.footer_div h4{
+    background-color: aquamarine;
+    color: maroon;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow:5px 10px 15px gold;
+}
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    color: mediumslateblue;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    font-size: 15px;
+    line-height: 3;
+    width: 100%;
 }
